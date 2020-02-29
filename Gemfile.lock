@@ -41,6 +41,7 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (8.0.0)
+    awesome_print (1.8.0)
     bindex (0.8.1)
     builder (3.2.4)
     byebug (11.0.1)
@@ -88,7 +89,7 @@ GEM
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     public_suffix (4.0.2)
-    puma (3.12.2)
+    puma (3.12.3)
     rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -174,12 +175,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.1.7)
   sass-rails (~> 5.0)
   selenium-webdriver
